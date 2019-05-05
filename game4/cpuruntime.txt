@@ -1,0 +1,19 @@
+Cpu runtime:
+
+Intial depth is 1.It is increased until times it takes crosses one minute.
+
+DEPTH		TIME
+
+1	-	0m0.039s
+2	-	0m0.041s	
+3	-	0m0.078s
+4	-	0m0.101s
+5	-	0m0.127s
+6	-	0m0.210s
+7	-	0m0.268s
+8	-	0m0.324s
+9	-	0m1.198s
+10	-	0m2.726s
+11	-	0m17.963s
+12	-	0m40.503s
+13	-	1m13.948s

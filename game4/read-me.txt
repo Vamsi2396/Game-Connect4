@@ -1,0 +1,27 @@
+->Yalamanchili Vamsi Krishna
+
+->Student Id:1001554490
+
+->Using Java .
+
+->Game is played on 6x7 matrix. In one-move mode, input file is given and minmax calculates the position to be placed and shows the resulting board state in the output file.In Interactive mode, the input file is given and then user have give input for the next turn and goes on.If it is computer's turn, minimax finction is called,board is evaluated using gameboardeval(evaluation function) and next move is played and the turn is given back to player2(i.e. Human). Here 1 is computer and 2 is human.After the board gets full,for each player we calulate the maximum number of quatraples in all directions(top,bottom,diagonal) using scorecalulation funtion.The output in printed to the files using outputfile function.The player that has the highest number of quatraples win the game.
+
+
+->Compilation:	
+
+	 javac maxconnect4.java
+
+->To run the code: 
+
+	-Interactive mode: 
+
+	java maxconnect4 interactive input1.txt computer-next/human-next maxdepth
+
+	(input1.txt is the input file, computer-next/human-next used to specify who have to play first.)  
+
+	-One-move mode:
+
+	java maxconnect4 one-move input1.txt output.txt maxdepth
+
+	(maxdepth is used to specify the depth , input1.txt is the input file and output.txt
+is the output file,)

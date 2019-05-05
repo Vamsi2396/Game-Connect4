@@ -1,0 +1,15 @@
+The score for each location is calculated using the evaluation function. Game board is a 6x7 matrix.The 6x7 matrix is again divided into 5 parts.Consider a=5 to 0 rows and b 0 to 6 columns.Row value starts from 5 as the blocks are filled from last row.
+
+1)When the column location is at a position greater than or equal to 3  (b>=3)  then the blocks that are adjacent in the Left side are checked and then the number of empty locations that are adjacent are checked.From the number of positions for AI and various more moves possible the score is calculated.If we have 3 adjacent AI positions and one adjacent empty location then highest score is given.
+
+
+2)When the column location is at a position Lesser than or equal to 3 (b<=3) then the blocks that are adjacent in the right side are checked and then the number of empty locations that are adjacent are checked.From the number of positions for AI and various more moves possible the score is calculated.If we have 3 adjacent AI positions and one adjacent empty location then highest score is given.
+
+
+3)When the column location is at a position lesser than or equal to 3 and the row location is at a position greater than or equal to 3  (b<=3 && a>=3)  then the blocks that are adjacent in the right diagonal are checked and then the number of empty locations that are adjacent are also checked.From the number of positions for AI and various more moves possible the score is calculated.If we have 3 adjacent AI positions and one adjacent empty location then highest score is given.
+
+
+4)When the column location is at a position greater than or equal to 3 and the row location is at a position greater than or equal to 3  (b>=3 && a>=3)  then the blocks that are adjacent in the Left diagonal are checked and then the number of empty locations that are adjacent are also checked.From the number of positions for AI and various moves possible the score is calculated. If we have 3 adjacent AI positions and one adjacent empty location then the highest score is given.
+
+
+5)When the row location is at a position greater than or equal to 3  (a>=3)  then the upper side adjacent blocks are checked and also then the number of empty locations that are adjacent are checked.From the number of positions for AI and various more moves possible the score is calculated. If we have 3 adjacent AI positions and one adjacent empty location then the highest score is given.
